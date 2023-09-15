@@ -5,7 +5,7 @@ pipeline {
         stage('DEBUG') {
             steps {
                 script {
-                    sh "ECHO MAIN"
+                    sh "echo MAIN"
                 }
 
             }
