@@ -5,7 +5,7 @@ pipeline {
         stage('DEBUG') {
             steps {
                 script {
-                    sh "ECHO BRANCH-3"
+                    sh "echo BRANCH-3"
                 }
 
             }
